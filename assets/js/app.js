@@ -5,13 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let basketIco = document.querySelector('.header-content__basket');
   basketIco.addEventListener('click', e => {
-    window.location.href = "/basket.html";
+    window.location.href = "https://konstantinvolodko.github.io/testHost/basket.html";
   });
 
   let logo = document.querySelectorAll('.header-content__logo').forEach(elem => {
     elem.addEventListener('click', (e) => {
       e.preventDefault()
-      window.location.href = "/";
+      window.location.href = "https://konstantinvolodko.github.io/testHost";
     })
   });
 
